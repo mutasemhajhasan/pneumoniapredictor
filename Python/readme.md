@@ -1,23 +1,7 @@
 ```markdown
 # Pneumonia Detection System
 
-## 📂 Project Structure
-```
-pneumonia-detection/
-├── main.py                # Training/evaluation script
-├── service.py             # Flask prediction service
-├── pneumonia_model.h5     # Saved model (created after training)
-└── chest_xray/            # Dataset directory
-    ├── train/
-    │   ├── NORMAL/
-    │   └── PNEUMONIA/
-    ├── val/
-    │   ├── NORMAL/
-    │   └── PNEUMONIA/
-    └── test/
-        ├── NORMAL/
-        └── PNEUMONIA/
-```
+
 
 ## 🛠️ Setup Instructions
 
