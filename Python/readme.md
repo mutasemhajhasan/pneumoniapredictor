@@ -15,6 +15,7 @@ unzip chest-xray-pneumonia.zip -d chest_xray
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 pip install tensorflow flask matplotlib numpy pillow requests
 ```
