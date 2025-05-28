@@ -6,13 +6,13 @@
 ## 🛠️ Setup Instructions
 
 ### 1. Dataset Preparation
-```bash
+
 # Download dataset from Kaggle
 kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
 
 # Unzip and organize
 unzip chest-xray-pneumonia.zip -d chest_xray
-```
+
 
 ### 2. Install Dependencies
 
@@ -21,9 +21,9 @@ pip install tensorflow flask matplotlib numpy pillow requests
 ## 🚀 How to Run
 
 ### Training the Model
-```bash
+
 python main.py
-```
+
 **Output:**
 ```
 Loading pre-trained model...
