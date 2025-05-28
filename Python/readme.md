@@ -43,9 +43,9 @@ Raw probability: 0.9820
 ```
 
 ### Running the Service
-```bash
+
 python service.py
-```
+
 **Output:**
 ```
  * Serving Flask app 'service'
@@ -58,16 +58,16 @@ python service.py
 ## 🌐 API Endpoints
 
 ### 1. Health Check
-```bash
+
 curl http://localhost:5000/health
-```
+
 **Response:**
 ```json
 {"status":"healthy"}
 ```
 
 ### 2. Prediction
-```bash
+
 curl -X POST -F "file=@xray_image.jpg" http://localhost:5000/predict
 ```
 **Successful Response:**
